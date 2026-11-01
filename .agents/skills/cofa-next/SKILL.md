@@ -20,7 +20,9 @@ description: 사용자가 "다음", "뭐 해야 돼", "막혔어"라고 하거�
 | 기록된 담당자 답이 5개 미만 | 인터뷰 | 담당자에게 다음 질문 하기 → 답을 `$cofa-interview`로 기록 |
 | `AGREEMENT.md` 없음 | 합의 | `$cofa-agreement` |
 | `PLAN.md` 없음 | 계획 | `$cofa-plan` |
+| 핵심 방식을 사용자가 아직 안 고름 (`DECISIONS.md`에 방식 결정 없음) | 방식 고르기 | 🙋 직접 할 것: PLAN.md의 방식 표를 보고 하나를 골라 이유와 함께 말하기 |
 | `PLAN.md`에 안 끝난 작업 있음 | 구현 | "PLAN.md 작업 N번만 해 줘. 확인하고 커밋하고 멈춰." |
+| 모든 작업 끝남, `DECISIONS.md`에 `[화면]` 항목 없음 | 화면 다듬기 | `$cofa-ux 사용자 입장에서 화면을 다듬어 줘. 새 기능은 넣지 마.` |
 | 모든 작업 끝남, `VERIFICATION.md` 없음 | 검증 | `$cofa-verify` |
 | 그 외 | 마무리 | `$cofa-handoff` 제출용 → `$cofa-explain` |
 
